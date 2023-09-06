@@ -37,6 +37,7 @@ defmodule Cards do
       iex> deck = Cards.create_deck
       iex> deck = Cards.shuffle deck #optional
       iex> Cards.save(deck, "filename")
+      :ok
 
   """
   def save(deck, fileName) do
